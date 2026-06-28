@@ -1,0 +1,10 @@
+Tool,Task,Task_Description,Turns,Result,Notes
+Claude Code,1,Express POST webhook endpoint,2,PASS,Fixed node-fetch ESM issue
+Claude Code,2,Debug ENOENT race condition,1,PASS,Identified missing Promise return
+Claude Code,3,Exponential backoff with jitter,1,PASS,Delays correct: ~200ms, ~400ms, ~800ms
+OpenCode,1,Express POST webhook endpoint,1,PASS,All tests passed on first implementation
+OpenCode,2,Debug ENOENT race condition,1,PASS,Added Promise wrapper and error handling
+OpenCode,3,Exponential backoff with jitter,2,PASS,Timing: ~221ms, ~435ms, ~919ms
+Kiro,1,Express POST webhook endpoint,1,PASS,Read context and implemented complete solution
+Kiro,2,Debug ENOENT race condition,1,PASS,Added .catch() error handling
+Kiro,3,Exponential backoff with jitter,1,PASS,Timing: ~221ms, ~435ms, ~919ms
